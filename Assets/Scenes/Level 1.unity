@@ -123,39 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &234036173 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6876476752699522638, guid: 84011300bb7010d41a0732a8aa859486, type: 3}
-  m_PrefabInstance: {fileID: 801356169}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &234036174
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234036173}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &234036176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234036173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35b48d03a969e3e4ebc01c72de560486, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 3844056763769293977, guid: aeec792f63a451243a4a4cf1ba87bac7, type: 3}
@@ -357,11 +324,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3850050751060441153, guid: a0abdaec785ecca4a80605f743a9fb39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 4.9
       objectReference: {fileID: 0}
     - target: {fileID: 3850050751060441153, guid: a0abdaec785ecca4a80605f743a9fb39, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20
+      value: -31.73
       objectReference: {fileID: 0}
     - target: {fileID: 3850050751060441153, guid: a0abdaec785ecca4a80605f743a9fb39, type: 3}
       propertyPath: m_LocalRotation.w
