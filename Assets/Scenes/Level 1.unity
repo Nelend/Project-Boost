@@ -861,6 +861,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 234036178, guid: 84011300bb7010d41a0732a8aa859486, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6876476752699522638, guid: 84011300bb7010d41a0732a8aa859486, type: 3}
       propertyPath: m_Name
       value: Rocket Ship

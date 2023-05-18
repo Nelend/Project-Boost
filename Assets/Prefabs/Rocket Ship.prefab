@@ -358,6 +358,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forceThrust: 1500
   forceRotate: 200
+  mainEngine: {fileID: 8300000, guid: 7b447b800aa0d22429629623cebffdbf, type: 3}
+  death: {fileID: 8300000, guid: ebf70094634b2bc478d2785ba13e3a11, type: 3}
+  success: {fileID: 8300000, guid: 0f5786a5aee99974fb292d96bc936159, type: 3}
 --- !u!1 &6876476752962069448
 GameObject:
   m_ObjectHideFlags: 0
