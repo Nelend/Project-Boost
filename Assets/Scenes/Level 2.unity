@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -215,7 +215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 616858969944382093, guid: 0fe03af90ced0094c8fc323524d452b4, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 616858969944382093, guid: 0fe03af90ced0094c8fc323524d452b4, type: 3}
       propertyPath: m_LocalScale.x
@@ -223,7 +223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 616858969944382093, guid: 0fe03af90ced0094c8fc323524d452b4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 11.36008
+      value: 16.566404
       objectReference: {fileID: 0}
     - target: {fileID: 616858969944382093, guid: 0fe03af90ced0094c8fc323524d452b4, type: 3}
       propertyPath: m_LocalScale.z
@@ -235,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 616858969944382093, guid: 0fe03af90ced0094c8fc323524d452b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.2
+      value: 30.8576
       objectReference: {fileID: 0}
     - target: {fileID: 616858969944382093, guid: 0fe03af90ced0094c8fc323524d452b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1844,6 +1844,10 @@ PrefabInstance:
     - target: {fileID: 3850050751060441156, guid: a0abdaec785ecca4a80605f743a9fb39, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850050751060441158, guid: a0abdaec785ecca4a80605f743a9fb39, type: 3}
+      propertyPath: field of view
+      value: 72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0abdaec785ecca4a80605f743a9fb39, type: 3}
