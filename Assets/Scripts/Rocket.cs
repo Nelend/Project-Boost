@@ -142,7 +142,17 @@ public class Rocket : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            int currentLevel = SceneManager.GetActiveScene().buildIndex;
+
+            if (SceneManager.sceneCountInBuildSettings == currentLevel + 1)
+            {
+                SceneManager.LoadScene(0);
+            }
+            else
+            {
+                SceneManager.LoadScene(currentLevel + 1);
+            }
+            
         }
         if (Input.GetKeyDown(KeyCode.C))
         {
